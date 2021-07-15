@@ -72,7 +72,7 @@ window.onload = function () {
       
       appendMins.innerHTML = "0" + mins;
       
-      appendTens.innerHTML = "0" + 0;
+      appendSeconds.innerHTML = "0" + 0;
     }
 
   
