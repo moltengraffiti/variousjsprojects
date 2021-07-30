@@ -1,15 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>Tip Calculator 2</title>
 </head>
 
 <body>
-
+    <main>
+        <h1>Tip Calculator</h1>
+        <form>
+            <p>
+                <label for="billTotal">What is the bill total?</label>
+                <input type="number" id="billTotal" placeholder="$0.00" />
+            </p>
+            <p>
+                <label for="tipValue">What percentage would you like to tip?</label>
+                <input type="number" id="tipValue" placeholder="30%" />
+            </p>
+            <p>
+                <label for="persons">How many people at dinner?</label>
+                <input type="number" id="persons" placeholder="0" />
+            </p>
+            <p>
+                <label for="calculate"></label>
+                <input type="button" id="calculate" value="Calculate tip" />
+            </p>
+            <p>
+                <label for="tipTotal"></label>The total tip amount: <span id="tipTotal">$0.00</span>
+            </p>
+            <p>
+                <label for="tipTotalPP">The tip amount per person: <span id="tipTotalPP">$0.00</span>
+            </p>
+        </form>
+    </main>
+    <script src="script.js"></script>
 </body>
+<!-- TODO - use label for rather than p and aria -->
 
 </html>
