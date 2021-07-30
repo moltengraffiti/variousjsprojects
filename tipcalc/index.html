@@ -2,34 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
 </head>
 
 <body>
-
-    <!-- Need inputs for bill amount, tip, and no of people
-    Also an output area to display total and pp -->
-
     <h1>Tip Calculator</h1>
     <form>
-        <p>
-            How much was the bill?
-            <input type="number" id="billTotal" placeholder="$0.00">
+        <p>How much was the bill?
+            <input type="number" id="billTotal" placeholder="$0.00" />
         </p>
-        <p>
-            What percentage would you like to tip?
-            <input type="number" id="tipValue" placeholder="30%">
+        <p>What percentage would you like to tip?
+            <input type="number" id="tipValue" placeholder="30%" />
         </p>
-        <p>
-            How many people at dinner?
-            <input type="number" id="persons" placeholder="0">
+        <p>How many people at dinner?
+            <input type="number" id="persons" placeholder="0" />
         </p>
-        <p><input type="button" id="calculate" value="Calculate tip"></p>
-        <p>The total tip amount: <span id="tipTotal">$0.00</span> </p>
-        <p>The tip amount per person: <span id="tipTotalPP">$0.00</span> </p>
+        <p><input type="button" id="calculate" value="Calculate tip" /></p>
+        <p>The total tip amount: <span id="tipTotal">$0.00</span></p>
+        <p>The tip amount per person: <span id="tipTotalPP">$0.00</span></p>
     </form>
 
     <script src="script.js"></script>
