@@ -18,5 +18,7 @@ function calculateTip() {
     tipTotal.innerHTML = `$${totalTip}`;
     tipTotalPP.innerHTML = `$${totalPerPerson}`;
     console.log(totalTip);
+
+    //TODO - needs to check inputs for 0 values
 }
 
